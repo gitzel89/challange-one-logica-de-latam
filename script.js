@@ -41,7 +41,7 @@ function check(e) {
     }
 
     // Patron de entrada, en este caso solo acepta letras minusculas de la a-z
-    patron = /[a-z]/;
+    patron = /[a-z ]/;
     tecla_final = String.fromCharCode(tecla);
     return patron.test(tecla_final);
 }
