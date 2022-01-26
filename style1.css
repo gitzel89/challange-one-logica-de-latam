@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  background-size: 700px 700px;
+ background-image: url("lo.jpg");
+
+
+
+
+
+}
+
+
+.main {
+  width: 64vw;
+  height: 27vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-image: url("la.jpg");
+  position: relative;
+  top: -257px; left: 264px;
+ 
+
+
+}
+
+
+
+.titulo {
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+  position: relative;
+  top: -260px; left: 264px;
+  font-family: cursive;
+  font-size: 236%;
+  color: white; text-shadow: red 0.1em 0.1em 0.2em
+
+}
+
+
+
+.box {
+  padding: 40px;
+  margin: 0 40px 0 10px;
+  height: 15vw;
+  border-color: #FFFFFF;
+
+
+}
+
+.btn-encrip {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+ 
+
+
+}
+
+.btn-desencrip {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+
+
+
+}
+
+
+.input-text {
+  border-radius: 0.5em;
+  border: 3px solid rgb(255,255,255);
+  display: block;
+  padding: 0.5em;
+  width: 320px;
+  height: 100px;
+  background-color: #000000;
+  color: rgb(38, 249, 240 );
+  font-size: medium;
+
+
+}
+label{
+    font: oblique bold 109% cursive;
+   color: white;
+}
+
+h3{
+
+   font: oblique bold 109% cursive;
+   color: white;
+
+}
+
+.advertencia{
+
+  position: relative;
+  top: 360px; left: 80px;
+  z-index: 3;
+  
+ 
+}
+
+.hoja{
+
+  position: relative;
+  top: 426px; left: -20px;
+  height: 100%;
+  width:47%;
+
+}
+
+.texto-encima {
+  z-index: 100;
+  position: absolute;
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  left: 700px;
+  top: 530px;
+}
+
+
+
+.btn-copy{
+
+   margin-top: 10px;
+ 
+
+}
+
+.robot{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
